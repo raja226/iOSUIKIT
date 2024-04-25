@@ -15,7 +15,14 @@ class DashBoardViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func popTapped(_ sender: Any) {
+        
+        if let nav = navigationController
+        {
+            nav.popViewController(animated: true)
+        }
+    }
+    
     /*
     // MARK: - Navigation
 
