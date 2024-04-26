@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var myarray :[Any] = [[1,2,3,4],["bab","test"],1,"go"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,6 +26,32 @@ class ViewController: UIViewController {
         print(obj.students)
         print(obj.printLastObj())
         
+        //Higher order func
+        
+        var resultofcompactMap =  myarray.compactMap { item in
+            
+            if let value = item as? [Any]
+            {
+                return value
+            }else
+            {
+                return nil
+            }
+            
+           // return item
+        }
+        
+        print(resultofcompactMap)
+        
+        var resultofFlatMap = resultofcompactMap.flatMap { item in
+            return item
+        }
+        
+        print(resultofFlatMap)
+        
+        var resultofMap = resultofFlatMap.map { String(describing: $0)}
+
+        print(resultofMap)
     }
     
     @IBAction func pushTapped(_ sender: Any) {
