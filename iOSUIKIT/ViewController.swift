@@ -8,12 +8,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        //Generic Type of function call :
+        print( self.compareTwoObjects(a: 5, b: 5))
+        
+        print(self.compareTwoObjectsThribleEquable(a: "5", b: "5"))
+        
+        //Generic check in class:
+        var obj = Person<String>()
+        obj.addStrudent(obj: "GOGUL")
+        obj.addStrudent(obj: "Raj")
+        print(obj.students)
+        print(obj.printLastObj())
+        
     }
-
+    
     @IBAction func pushTapped(_ sender: Any) {
         
         if let navationVc = navigationController
@@ -41,10 +53,36 @@ class ViewController: UIViewController {
         {
             print("No Naviagtion Embeded")
         }
-       
+        
         
         
     }
     
+    private func compareTwoObjects<T:Equatable>(a: T, b:T) -> Bool
+    {
+        return a == b
+    }
+    
+    private func compareTwoObjectsThribleEquable<T>(a: T, b:T) -> Bool
+    {
+        return a as AnyObject === b as AnyObject
+    }
+    
+    
 }
 
+struct Person<T>
+{
+    var students = [T]()
+    
+    mutating func addStrudent(obj:T)
+    {
+        students.append(obj)
+    }
+    
+    mutating func printLastObj()
+    {
+        print(students.popLast() ?? [])
+        students.popLast()
+    }
+}

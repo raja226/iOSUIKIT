@@ -3,4 +3,84 @@
    uuid = "9784FE0B-C742-4E5C-828F-394189CC51A6"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3E98EBB-B09B-467C-A400-281B96CD58D5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSUIKIT/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F3E98EBB-B09B-467C-A400-281B96CD58D5 - b4cab856dbc84677"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSUIKIT.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "iOSUIKIT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kanini-ltp-893/Documents/SelfDevelopment/Swift/iOSUIKIT/iOSUIKIT/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "F3E98EBB-B09B-467C-A400-281B96CD58D5 - b4cab856dbc84677"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSUIKIT.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "iOSUIKIT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kanini-ltp-893/Documents/SelfDevelopment/Swift/iOSUIKIT/iOSUIKIT/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "F3E98EBB-B09B-467C-A400-281B96CD58D5 - b4cab856dbc84677"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSUIKIT.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "iOSUIKIT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kanini-ltp-893/Documents/SelfDevelopment/Swift/iOSUIKIT/iOSUIKIT/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "344">
+               </Location>
+               <Location
+                  uuid = "F3E98EBB-B09B-467C-A400-281B96CD58D5 - b4cab856dbc84677"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSUIKIT.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "iOSUIKIT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kanini-ltp-893/Documents/SelfDevelopment/Swift/iOSUIKIT/iOSUIKIT/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "376">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

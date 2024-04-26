@@ -17,6 +17,7 @@
 		BED1DF2A2BDA7208007FAED1 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED1DF292BDA7208007FAED1 /* DashBoardViewController.swift */; };
 		BED1DF2C2BDA77FC007FAED1 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED1DF2B2BDA77FC007FAED1 /* NotificationViewController.swift */; };
 		BED1DF2E2BDA7816007FAED1 /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED1DF2D2BDA7816007FAED1 /* Notification.storyboard */; };
+		BED1DF302BDA8DF9007FAED1 /* Fitcommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED1DF2F2BDA8DF9007FAED1 /* Fitcommands.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		BED1DF292BDA7208007FAED1 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
 		BED1DF2B2BDA77FC007FAED1 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		BED1DF2D2BDA7816007FAED1 /* Notification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
+		BED1DF2F2BDA8DF9007FAED1 /* Fitcommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitcommands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				BED1DF1C2BDA71B2007FAED1 /* Assets.xcassets */,
 				BED1DF1E2BDA71B2007FAED1 /* LaunchScreen.storyboard */,
 				BED1DF212BDA71B2007FAED1 /* Info.plist */,
+				BED1DF2F2BDA8DF9007FAED1 /* Fitcommands.swift */,
 			);
 			path = iOSUIKIT;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BED1DF2C2BDA77FC007FAED1 /* NotificationViewController.swift in Sources */,
+				BED1DF302BDA8DF9007FAED1 /* Fitcommands.swift in Sources */,
 				BED1DF182BDA71B0007FAED1 /* ViewController.swift in Sources */,
 				BED1DF142BDA71B0007FAED1 /* AppDelegate.swift in Sources */,
 				BED1DF162BDA71B0007FAED1 /* SceneDelegate.swift in Sources */,
