@@ -7,6 +7,18 @@
 
 import Foundation
 /*
+ Variables:
+ ------------
+ Variables allow us to store temporary information in our program
+ 
+ //Once you create a variable using var, you can change it as often as you want
+ var name = "Textst"
+ 
+ 
+ 
+ 
+ 
+ 
  What is the mutating Keyword?
  
  In Swift, the mutating keyword is used to declare methods within value types (such as structs and enums) that are allowed to modify the properties of the instance they belong to.
@@ -24,6 +36,7 @@ import Foundation
   counter.increment() // This modifies the counter instance
   
  */
+
 
 
 
