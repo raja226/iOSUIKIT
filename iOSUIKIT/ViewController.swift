@@ -6,11 +6,11 @@
 //
 
 import UIKit
+import SimpleNetwork
 
 class ViewController: UIViewController {
     
     var myarray :[Any] = [[1,2,3,4],["bab","test"],1,"go"]
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -38,7 +38,7 @@ class ViewController: UIViewController {
                 return nil
             }
             
-           // return item
+            // return item
         }
         
         print(resultofcompactMap)
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
         print(resultofFlatMap)
         
         var resultofMap = resultofFlatMap.map { String(describing: $0)}
-
+        
         print(resultofMap)
         
         
@@ -81,13 +81,12 @@ G Rakaselhar
         temparature = ["test1","bala"]
         
         debugPrint(temparature)
-
+        
         
         print(stringINterpolation())
-
-
+        
     }
-
+    
     
     @IBAction func pushTapped(_ sender: Any) {
         
@@ -96,6 +95,14 @@ G Rakaselhar
             let storboard = UIStoryboard(name: "DashBoard", bundle: nil)
             if let vC = storboard.instantiateViewController(identifier: "DashBoardViewController") as? DashBoardViewController
             {
+                vC.closureHandlerBlock = { [weak self] data in
+                    
+                    guard let self = self else {
+                        return
+                    }
+                    print("Receiving the data: \(data)")
+                    
+                }
                 navationVc.pushViewController(vC, animated: true)
             }
             
@@ -110,8 +117,11 @@ G Rakaselhar
         if let nav = navigationController
         {
             let noticicationStoryBoard = UIStoryboard(name: "Notification", bundle: nil)
-            let vC = noticicationStoryBoard.instantiateViewController(identifier: "NotificationViewController") as NotificationViewController
-            nav.pushViewController(vC, animated: true)
+            if let vC = noticicationStoryBoard.instantiateViewController(identifier: "NotificationViewController") as? NotificationViewController
+            {
+                nav.pushViewController(vC, animated: true)
+                
+            }
         }else
         {
             print("No Naviagtion Embeded")
@@ -119,6 +129,8 @@ G Rakaselhar
         setConcepts()
         
         parsetheJSONString()
+        
+        toupleinSwift()
     }
     
     private func compareTwoObjects<T:Equatable>(a: T, b:T) -> Bool
@@ -151,7 +163,7 @@ G Rakaselhar
     {
         //In Swift, a set is an unordered collection of unique elements.
         
-       var setArray = Set([1,1,2,3,3])
+        var setArray = Set([1,1,2,3,3])
         print(setArray)
         
         var anySet = Set<Int>()
@@ -177,24 +189,32 @@ G Rakaselhar
          3.
          */
         
-//        func apiFetch() -> (data:Data?, error:Error?)
-//        {
-//            if let data = responseData
-//            {
-//                return (data,nil)
-//            }else
-//            {
-//                return (nil,APIEror.notFound)
-//            }
-//        }
         
-//        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//            if segue.identifier == "ShowDetail" {
-//                if let destinationVC = segue.destination as? DetailViewController {
-//                    destinationVC.data = ("Title", "Description")
-//                }
-//            }
-//        }
+        var persontouple:(String, Int) = ("Rajasekhar",31)
+        //Access
+        
+        print("\(persontouple.0) and \(persontouple.1)")
+        
+        
+        
+        //        func apiFetch() -> (data:Data?, error:Error?)
+        //        {
+        //            if let data = responseData
+        //            {
+        //                return (data,nil)
+        //            }else
+        //            {
+        //                return (nil,APIEror.notFound)
+        //            }
+        //        }
+        
+        //        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //            if segue.identifier == "ShowDetail" {
+        //                if let destinationVC = segue.destination as? DetailViewController {
+        //                    destinationVC.data = ("Title", "Description")
+        //                }
+        //            }
+        //        }
         
     }
     
@@ -203,7 +223,7 @@ G Rakaselhar
     {
         
         // Properly formatted JSON string
-            let myJsonString = """
+        let myJsonString = """
             {
                 "name": "Rajasekhar",
                 "age": 33,
@@ -235,6 +255,7 @@ G Rakaselhar
         
     }
     
+
 }
 
 struct Person<T>

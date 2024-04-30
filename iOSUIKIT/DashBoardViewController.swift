@@ -8,7 +8,11 @@
 import UIKit
 
 class DashBoardViewController: UIViewController {
+    var closureHandlerBlock: ((String) -> Void)?
     
+    var closervariable: (())?
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -16,6 +20,11 @@ class DashBoardViewController: UIViewController {
     }
     
     @IBAction func popTapped(_ sender: Any) {
+        
+        if let calltheclouser = closureHandlerBlock
+        {
+            calltheclouser("SendingData....")
+        }
         
         if let nav = navigationController
         {

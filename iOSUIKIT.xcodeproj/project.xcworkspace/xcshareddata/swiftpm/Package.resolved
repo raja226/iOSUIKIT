@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "simplenetwork",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/raja226/SimpleNetwork",
+      "state" : {
+        "branch" : "main",
+        "revision" : "05ca72509ea04f5e7fa4a3b61e45a1d5159965d3"
+      }
+    }
+  ],
+  "version" : 2
+}

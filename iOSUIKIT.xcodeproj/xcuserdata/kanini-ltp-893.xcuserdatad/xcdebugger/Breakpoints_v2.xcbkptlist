@@ -7,79 +7,33 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "694A8319-C359-4847-BD4D-0E25BEB72A95"
+            uuid = "322FE7C0-C62E-44BA-9B8D-247A50E2A9C5"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "iOSUIKIT/ViewController.swift"
+            filePath = "iOSUIKIT/NotificationViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "204"
-            endingLineNumber = "204"
-            landmarkName = "parsetheJSONString()"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "getAPICall()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "694A8319-C359-4847-BD4D-0E25BEB72A95 - 8e437a8b9a869318"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iOSUIKIT.ViewController.parsetheJSONString() -&gt; ()"
-                  moduleName = "iOSUIKIT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kanini-ltp-893/Documents/SelfDevelopment/Swift/iOSUIKIT/iOSUIKIT/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "205"
-                  endingLineNumber = "205"
-                  offsetFromSymbolStart = "72">
-               </Location>
-               <Location
-                  uuid = "694A8319-C359-4847-BD4D-0E25BEB72A95 - 8e437a8b9a869318"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iOSUIKIT.ViewController.parsetheJSONString() -&gt; ()"
-                  moduleName = "iOSUIKIT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kanini-ltp-893/Documents/SelfDevelopment/Swift/iOSUIKIT/iOSUIKIT/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "205"
-                  endingLineNumber = "205"
-                  offsetFromSymbolStart = "140">
-               </Location>
-               <Location
-                  uuid = "694A8319-C359-4847-BD4D-0E25BEB72A95 - 8e437a8b9a869318"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iOSUIKIT.ViewController.parsetheJSONString() -&gt; ()"
-                  moduleName = "iOSUIKIT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kanini-ltp-893/Documents/SelfDevelopment/Swift/iOSUIKIT/iOSUIKIT/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "205"
-                  endingLineNumber = "205"
-                  offsetFromSymbolStart = "208">
-               </Location>
-               <Location
-                  uuid = "694A8319-C359-4847-BD4D-0E25BEB72A95 - 8e437a8b9a86937b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iOSUIKIT.ViewController.parsetheJSONString() -&gt; ()"
-                  moduleName = "iOSUIKIT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kanini-ltp-893/Documents/SelfDevelopment/Swift/iOSUIKIT/iOSUIKIT/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "206"
-                  endingLineNumber = "206"
-                  offsetFromSymbolStart = "208">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "872E594F-E97B-4478-80F3-43A1FFD64DDF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSUIKIT/NotificationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "getAPICall()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

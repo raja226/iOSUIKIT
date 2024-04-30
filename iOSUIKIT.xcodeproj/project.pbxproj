@@ -18,6 +18,7 @@
 		BED1DF2C2BDA77FC007FAED1 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED1DF2B2BDA77FC007FAED1 /* NotificationViewController.swift */; };
 		BED1DF2E2BDA7816007FAED1 /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED1DF2D2BDA7816007FAED1 /* Notification.storyboard */; };
 		BED1DF302BDA8DF9007FAED1 /* Fitcommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED1DF2F2BDA8DF9007FAED1 /* Fitcommands.swift */; };
+		BED1DF332BE0ED1E007FAED1 /* SimpleNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = BED1DF322BE0ED1E007FAED1 /* SimpleNetwork */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED1DF332BE0ED1E007FAED1 /* SimpleNetwork in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +100,9 @@
 			dependencies = (
 			);
 			name = iOSUIKIT;
+			packageProductDependencies = (
+				BED1DF322BE0ED1E007FAED1 /* SimpleNetwork */,
+			);
 			productName = iOSUIKIT;
 			productReference = BED1DF102BDA71B0007FAED1 /* iOSUIKIT.app */;
 			productType = "com.apple.product-type.application";
@@ -126,6 +131,9 @@
 				Base,
 			);
 			mainGroup = BED1DF072BDA71B0007FAED1;
+			packageReferences = (
+				BED1DF312BE0ED1E007FAED1 /* XCRemoteSwiftPackageReference "SimpleNetwork" */,
+			);
 			productRefGroup = BED1DF112BDA71B0007FAED1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -383,6 +391,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BED1DF312BE0ED1E007FAED1 /* XCRemoteSwiftPackageReference "SimpleNetwork" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raja226/SimpleNetwork";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BED1DF322BE0ED1E007FAED1 /* SimpleNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BED1DF312BE0ED1E007FAED1 /* XCRemoteSwiftPackageReference "SimpleNetwork" */;
+			productName = SimpleNetwork;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BED1DF082BDA71B0007FAED1 /* Project object */;
 }
